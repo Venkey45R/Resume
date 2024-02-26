@@ -1,0 +1,23 @@
+.bg-gradient-to-bl {
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+  }
+  
+  /* cover.css */
+.fixed-navbar {
+  position: fixed;
+  top: 20;
+  right: 40;
+  width: 45%;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+@media only screen and (max-width: 768px) {
+  .fixed-navbar{
+  width: 100%;
+  right: 0;
+  top: 20%;
+  height: 0%;
+  position: relative;
+}
+}
+
