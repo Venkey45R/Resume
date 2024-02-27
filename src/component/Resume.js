@@ -134,23 +134,23 @@ function Resume() {
             </div>
             </div>
             <div className='block border-b border-gray-200 py-4 text-sm'>
-            <div className='bg-white -ml-60 rounded-xl'>
+            <div className='bg-white -ml-0 md:-ml-60 rounded-xl'>
             <h1 className='font-bold ml-3 mb-5 pt-5 relative flex'>
               <span className='before:absolute before:left-0 before:content-[""] before:w-2 before:h-2 before:rounded-full before:bg-blue-600'></span>
               <span className='relative -top-2 left-3'>Education</span>
             </h1>
-            <div className=' flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-6 pr-20 rounded-xl'>
-            <img src={stanford} alt='stanford' className=' w-12 h-12 mr-5 rounded-full' />
+            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl md:ml-0'>
+            <img src={stanford} alt='stanford' className=' w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
             <div className=' block'>
-              <h1 className=' font-semibold mb-2 text-base'>Master of Science in Computer Science</h1>
-              <div className='flex font-normal mb-2'>
-                <div className='flex font-normal'>
+              <h1 className=' font-semibold mb-2 text-sm md:text-base ml-2 text-black'>Master of Science in Computer Science</h1>
+              <div className='grid grid-cols-2 md:flex font-normal mb-2 ml-1 md:ml-0 text-xs'>
+                <div className='flex font-normal text-xs'>
                 <i class="fa-solid fa-briefcase relative top-1 mr-2 "></i>
-                <p className='mr-10'>Stanford University</p>
+                <p className='mr-0 mb-2 md:mb-0 md:mr-10'>Stanford University</p>
                 </div>
-                <div className='flex'>
+                <div className='flex ml-10 md:ml-0'>
                 <i class="fa-solid fa-location-dot relative top-1 mr-2"></i>
-                <p className='mr-10'>Stanford, CA</p>
+                <p className='mr-0 md:mr-10'>Stanford, CA</p>
                 </div>
                 <div className='flex'>
                 <i class="fa-solid fa-calendar-day relative top-1 mr-2"></i>
@@ -162,16 +162,16 @@ function Resume() {
               </div>
             </div>
             </div>
-            <div className=' flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-6 pr-20 rounded-xl'>
-            <img src={university} alt='university' className=' w-12 h-12 mr-5 rounded-full' />
+            <div className='block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-10 md:pr-20 rounded-xl md:ml-0'>
+            <img src={university} alt='university' className='w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
             <div className=' block'>
-              <h1 className=' font-semibold mb-2 text-base'>Bachelor of Science in Computer Science</h1>
-              <div className='flex font-normal mb-2'>
-                <div className='flex font-normal'>
+              <h1 className='font-semibold mb-2 text-sm md:text-base ml-2 text-black'>Bachelor of Science in Computer Science</h1>
+              <div className='grid grid-cols-2 md:flex font-normal mb-2 ml-1 md:ml-0 text-xs'>
+                <div className='flex font-normal text-xs'>
                 <i class="fa-solid fa-briefcase relative top-1 mr-2 "></i>
-                <p className='mr-10'>University of California</p>
+                <p className='mr-0 mb-2 md:mb-0 md:mr-10'>University of California</p>
                 </div>
-                <div className='flex'>
+                <div className='flex ml-10 md:ml-0'>
                 <i class="fa-solid fa-location-dot relative top-1 mr-2"></i>
                 <p className='mr-10'>Berkeley, CA</p>
                 </div>
@@ -185,14 +185,14 @@ function Resume() {
               </div>
             </div>
             </div>
-            <div className=' flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-6 pr-20 rounded-xl'>
-            <img src={deanza} alt='deanza' className=' w-12 h-12 mr-5 rounded-full' />
+            <div className='block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-10 md:pr-20 rounded-xl md:ml-0'>
+            <img src={deanza} alt='deanza' className='w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
             <div className=' block'>
-              <h1 className=' font-semibold mb-2 text-base'>Associate of Science in Computer Science</h1>
-              <div className='flex font-normal mb-2'>
-                <div className='flex font-normal'>
+              <h1 className='font-semibold mb-2 text-sm md:text-base ml-2 text-black'>Associate of Science in Computer Science</h1>
+              <div className='grid grid-cols-2 md:flex font-normal mb-2 ml-1 md:ml-0 text-xs'>
+                <div className='flex font-normal text-xs'>
                 <i class="fa-solid fa-briefcase relative top-1 mr-2 "></i>
-                <p className='mr-10'>De Anza College</p>
+                <p className='mr-0 mb-2 md:mb-0 md:mr-10'>De Anza College</p>
                 </div>
                 <div className='flex'>
                 <i class="fa-solid fa-location-dot relative top-1 mr-2"></i>
