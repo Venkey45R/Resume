@@ -12,7 +12,7 @@ function Resume() {
     <div className='md:-mt-6 px-2'>
     <div className='block border-b border-gray-200 py-4 text-sm relative top-0 md:top-10'>
     <div className='block border-b border-gray-200 py-4 text-sm mx-2'>
-            <div className='flex fixed-navbar bg-white h-14 w-1/2 -ml-0 md:-ml-60 md:-mt-4 rounded-xl py-1'>
+            <div className='flex fixed-navbar bg-white h-14 -ml-0 md:-ml-60 md:-mt-4 rounded-xl py-1'>
               <div className='mx-3 md:mx-8 flex justify-center items-center'>
               <Link to={`/Resume`}>
                 <button className='bg-gray-200 px-6 md:px-16 rounded-xl py-3 text-blue-700 font-semibold'>Resume</button>
