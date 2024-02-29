@@ -9,7 +9,7 @@ function Header() {
         <div className="bg-gray-200 min-h-screen rounded-xl md:py-6">
           <div className='block md:flex'>
             <div className='block py-1 px-2'>
-          <div className='ml-4 md:mx-64 w-11/12 my-4 md:m-0 md:w-80 bg-white mb-8 rounded-xl'>
+          <div className='ml-40 md:mx-64 w-11/12 my-4 md:m-0 md:w-80 bg-white mb-8 rounded-xl'>
            <div className='relative w-full h-full overflow-hidden'>
            <img src={cover} alt='cover' className=' h-56  w-full md:w-full md:h-full rounded-t-xl blur-sm' />   
            </div>
