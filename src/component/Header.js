@@ -9,7 +9,7 @@ function Header() {
         <div className="bg-gray-200 min-h-screen rounded-xl md:py-6">
           <div className='block md:flex'>
             <div className='block py-1 px-2'>
-          <div className='ml-4 md:ml-0 md:mx-64 w-11/12 my-4 md:m-0 md:w-80 bg-white mb-8 rounded-xl'>
+          <div className='ml-4 md:mx-64 w-11/12 my-4 md:m-0 md:w-80 bg-white mb-8 rounded-xl'>
            <div className='relative w-full h-full overflow-hidden'>
            <img src={cover} alt='cover' className=' h-56  w-full md:w-full md:h-full rounded-t-xl blur-sm' />   
            </div>
@@ -55,19 +55,19 @@ function Header() {
             <div className=' bg-gray-100'>
               <div className='flex border-b border-gray-200 py-2 text-sm'>
               <p className=' ml-5'>Location</p>
-              <p className='relative -right-24 md:-right-28 '>Mountain View, CA</p>
+              <p className='relative -right-24'>Mountain View, CA</p>
             </div>
             <div className='flex border-b border-gray-200 py-2 text-sm'>
               <p className=' ml-5'>Experience</p>
-              <p className='relative -right-36 md:-right-40 '> >8 years</p>
+              <p className='relative -right-36'> >8 years</p>
             </div>
             <div className='flex border-b border-gray-200 py-2 text-sm'>
               <p className=' ml-5'>Availablity</p>
-              <p className='relative -right-36 md:-right-40 '>In 2 month</p>
+              <p className='relative -right-36'>In 2 month</p>
             </div>
             <div className='flex border-b border-gray-200 py-4 text-sm'>
               <p className=' ml-5'>Relocation</p>
-              <p className='relative -right-44 md:-right-48 '>No</p>
+              <p className='relative -right-44'>No</p>
             </div>
           </div>
           </div>

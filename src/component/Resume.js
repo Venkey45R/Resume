@@ -30,7 +30,7 @@ function Resume() {
               </div>
             </div>
             </div>
-              <div className='bg-white -ml-0 md:-ml-60 rounded-xl mt-2 md:mt-10 py-2 pr-2'>
+              <div className='bg-white -ml-0 md:-ml-60 rounded-xl mt-2 md:mt-10 p-2 pr-2'>
             <h1 className='font-bold mb-5 pt-2 md:pt-5 relative flex py-1 md:py-3 ml-10'>
               <span className='before:absolute before:left-0 before:content-[""] before:w-2 before:h-2 before:rounded-full before:bg-blue-600'></span>
               <span className='relative -top-2 left-3 font-semibold text-base '>Experience</span>
@@ -134,7 +134,7 @@ function Resume() {
             </div>
             </div>
             <div className='block border-b border-gray-200 py-4 text-sm'>
-            <div className='bg-white -ml-0 md:-ml-60 rounded-xl'>
+            <div className='bg-white -ml-0 md:-ml-60 rounded-xl mt-3 md:mt-6 px-2'>
             <h1 className='font-bold ml-3 mb-5 pt-5 relative flex'>
               <span className='before:absolute before:left-0 before:content-[""] before:w-2 before:h-2 before:rounded-full before:bg-blue-600'></span>
               <span className='relative -top-2 left-3'>Education</span>
