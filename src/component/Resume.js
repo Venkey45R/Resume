@@ -12,7 +12,7 @@ function Resume() {
     <div className='md:-mt-6 px-2'>
     <div className='block border-b border-gray-200 py-4 text-sm relative top-0 md:top-10'>
     <div className='block border-b border-gray-200 py-4 text-sm mx-2'>
-            <div className='flex fixed-navbar bg-white h-14 -ml-0 md:-ml-60 md:-mt-4 rounded-xl py-1'>
+            <div className='flex fixed-navbar bg-white h-14 -ml-2 md:-ml-60 md:-mt-4 rounded-xl py-1'>
               <div className='mx-3 md:mx-8 flex justify-center items-center'>
               <Link to={`/Resume`}>
                 <button className='bg-gray-200 px-6 md:px-16 rounded-xl py-3 text-blue-700 font-semibold'>Resume</button>
@@ -31,11 +31,11 @@ function Resume() {
             </div>
             </div>
               <div className='bg-white -ml-0 md:-ml-60 rounded-xl mt-2 md:mt-10 p-2 pr-2'>
-            <h1 className='font-bold mb-5 pt-2 md:pt-5 relative flex py-1 md:py-3 ml-10'>
+            <h1 className='font-bold mb-5 relative flex py-1 md:py-3 ml-10'>
               <span className='before:absolute before:left-0 before:content-[""] before:w-2 before:h-2 before:rounded-full before:bg-blue-600'></span>
               <span className='relative -top-2 left-3 font-semibold text-base '>Experience</span>
             </h1>
-            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl ml-0 mr-0 md:ml-5 md:mr-2'>
               <img src={google} alt='google' className=' w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
               <span className='px-2 bg-gray-300 text-gray-800 absolute right-4 md:right-10 text-xs font-semibold py-1'>Full-time</span>
               <div className=' block'>
@@ -59,7 +59,7 @@ function Resume() {
                 </div>
               </div>
             </div>
-            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl  ml-0 mr-0 md:ml-5 md:mr-2'>
               <img src={amazon} alt='\amazon' className='  w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
               <span className='px-2 bg-gray-300 text-gray-800 absolute right-4 md:right-10 text-xs font-semibold py-1'>Full-time</span>
               <div className=' block'>
@@ -83,7 +83,7 @@ function Resume() {
                 </div>
               </div>
             </div>
-            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl  ml-0 mr-0 md:ml-5 md:mr-2'>
               <img src={microsoft} alt='microsoft' className='  w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
               <span className='px-2 bg-gray-300 text-gray-800 absolute right-4 md:right-10 text-xs font-semibold py-1'>Full-time</span>
               <div className=' block'>
@@ -107,7 +107,7 @@ function Resume() {
                 </div>
               </div>
             </div>
-            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl  ml-0 mr-0 md:ml-5 md:mr-2'>
               <img src={tesla} alt='tesla' className=' w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
               <span className='px-2 bg-gray-300 text-gray-800 absolute right-4 md:right-10 text-xs font-semibold py-1'>Full-time</span>
               <div className=' block'>
@@ -139,7 +139,7 @@ function Resume() {
               <span className='before:absolute before:left-0 before:content-[""] before:w-2 before:h-2 before:rounded-full before:bg-blue-600'></span>
               <span className='relative -top-2 left-3'>Education</span>
             </h1>
-            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className=' block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-20 rounded-xl  ml-0 mr-0 md:ml-5 md:mr-2'>
             <img src={stanford} alt='stanford' className=' w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
             <div className=' block'>
               <h1 className=' font-semibold mb-2 text-sm md:text-base ml-2 text-black'>Master of Science in Computer Science</h1>
@@ -162,7 +162,7 @@ function Resume() {
               </div>
             </div>
             </div>
-            <div className='block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-10 md:pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className='block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-10 md:pr-20 rounded-xl  ml-0 mr-0 md:ml-5 md:mr-2'>
             <img src={university} alt='university' className='w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
             <div className=' block'>
               <h1 className='font-semibold mb-2 text-sm md:text-base ml-2 text-black'>Bachelor of Science in Computer Science</h1>
@@ -185,7 +185,7 @@ function Resume() {
               </div>
             </div>
             </div>
-            <div className='block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-10 md:pr-20 rounded-xl md:ml-5 md:mr-2'>
+            <div className='block md:flex mx-2 text-gray-600 relative my-3 bg-gray-100 px-2 py-2 md:py-4 pr-10 md:pr-20 rounded-xl  ml-0 mr-0 md:ml-5 md:mr-2'>
             <img src={deanza} alt='deanza' className='w-12 h-12 ml-4 my-2 md:my-0 mr-5 rounded-full' />
             <div className=' block'>
               <h1 className='font-semibold mb-2 text-sm md:text-base ml-2 text-black'>Associate of Science in Computer Science</h1>
