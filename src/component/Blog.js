@@ -6,12 +6,12 @@ function Blog() {
     <div className='block border-b border-gray-200 py-4 text-sm relative top-0 md:top-10'>
     <div className='block border-b border-gray-200 py-4 text-sm mx-2'>
             <div className='flex fixed-navbar bg-white h-14 -ml-2 md:-ml-60 md:-mt-4 rounded-xl py-1'>
-              <div className='mx-3 md:mx-8 flex justify-center items-center'>
+              <div className='-ml-10 mx-3 md:mx-8 flex justify-center items-center'>
               <Link to={`/Resume`}>
                 <button className=' hover:bg-gray-200 bg-white py-3 rounded-xl font-semibold px-6 md:px-16 text-gray-700 hover:text-blue-700'>Resume</button>
               </Link>
               </div>
-              <div className='mx-3 md:mx-8 flex justify-center items-center'>
+              <div className='-ml-10 mx-3 md:mx-8 flex justify-center items-center'>
                 <Link to={`/project`}>
                 <button  className= 'hover:bg-gray-200 bg-white py-3 rounded-xl font-semibold px-6 md:px-16 text-gray-700 hover:text-blue-700'>Projects</button>
                 </Link>
